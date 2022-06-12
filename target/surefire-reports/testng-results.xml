@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="5457" started-at="2022-06-10T11:50:57 IST" finished-at="2022-06-10T11:51:03 IST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="5457" started-at="2022-06-10T11:50:57 IST" finished-at="2022-06-10T11:51:03 IST">
+      <class name="com.ybl.tests.UserAPITest">
+        <test-method status="PASS" signature="toCreateGetUser()[pri:0, instance:com.ybl.tests.UserAPITest@4df50bcc]" name="toCreateGetUser" duration-ms="2764" started-at="2022-06-10T11:50:57 IST" description="Get method to fetch data of User" finished-at="2022-06-10T11:51:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCreateGetUser -->
+        <test-method status="PASS" signature="toCreateUser()[pri:0, instance:com.ybl.tests.UserAPITest@4df50bcc]" name="toCreateUser" duration-ms="1672" started-at="2022-06-10T11:51:00 IST" description="POST method to create a new User" finished-at="2022-06-10T11:51:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCreateUser -->
+        <test-method status="PASS" signature="toUpdatePlaylist()[pri:0, instance:com.ybl.tests.UserAPITest@4df50bcc]" name="toUpdatePlaylist" duration-ms="909" started-at="2022-06-10T11:51:02 IST" description="PUT method for Update the data" finished-at="2022-06-10T11:51:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toUpdatePlaylist -->
+      </class> <!-- com.ybl.tests.UserAPITest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
